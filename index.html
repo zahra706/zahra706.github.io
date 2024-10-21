@@ -4,32 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Zahra</title>
+    
+    <!-- Styles CSS locaux -->
     <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-
+    
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
+
+    <!-- Header -->
+    <header class="text-center p-4 bg-light">
         <h1>Bienvenue sur mon Portfolio</h1>
         <p>Ce site présente mes projets et mon parcours professionnel.</p>
     </header>
-    <main>
-        <section>
+
+    <!-- Section principale -->
+    <main class="container my-5">
+        <!-- Section À propos de moi -->
+        <section class="mb-4">
             <h2>À propos de moi</h2>
-            <p>Je suis passionnée par le développement web et j’aime créer des interfaces simples et élégantes.</p>
+            <p>
+                Je suis passionnée par le développement web et j’aime créer des interfaces simples et élégantes.
+            </p>
         </section>
+
+        <!-- Section Mes projets -->
         <section>
             <h2>Mes projets</h2>
-            <ul>
-                <li>Projet 1: Site de e-commerce</li>
-                <li>Projet 2: Blog personnel</li>
-                <li>Projet 3: Portfolio personnel</li>
+            <ul class="list-group">
+                <li class="list-group-item">Projet 1: Site de e-commerce</li>
+                <li class="list-group-item">Projet 2: Blog personnel</li>
+                <li class="list-group-item">Projet 3: Portfolio personnel</li>
             </ul>
         </section>
+
+        <!-- Bouton Télécharger le CV -->
+        <div class="text-center mt-5">
+            <a href="cv.pdf" download class="btn btn-primary">Télécharger mon CV</a>
+        </div>
     </main>
-    <footer>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white p-3">
         <p>© 2024 Zahra. Tous droits réservés.</p>
     </footer>
+
+    <!-- Script JS Bootstrap (facultatif) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
