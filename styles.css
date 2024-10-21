@@ -1,11 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ee96d3;
-    color: #333;
+    background-color: #f8d8e8; /* Light pink background */
+    color: #5c3a6b; /* Darker pink for text */
 }
+
 header {
-    background: rgb(194, 27, 55);
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #ff9eb3; /* Pink header */
+    color: white; /* White text */
+}
+
+h1, h2 {
+    color: #ff4f81; /* Bright pink for headings */
+}
+
+p {
+    color: #5c3a6b; /* Darker pink for paragraph text */
+}
+
+footer {
+    background-color: #ff9eb3; /* Pink footer */
+    color: white; /* White text */
+}
+
+.btn-primary {
+    background-color: #ff4f81; /* Bright pink button */
+    border-color: #ff4f81; /* Same color for border */
+}
+
+.btn-primary:hover {
+    background-color: #ff2a60; /* Darker pink on hover */
+    border-color: #ff2a60; /* Same for border */
+}
+
+.list-group-item {
+    background-color: #ffecf2; /* Very light pink for list items */
+    color: #5c3a6b; /* Darker pink for text */
 }
